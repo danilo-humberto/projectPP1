@@ -1,0 +1,93 @@
+/*QUARTA TELA*/
+p{
+    font-family: 'Tinos', serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar {
+    height: 81px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px -13px 4px 0px #1B0025 inset;
+}
+
+.tela {
+    background-color: #1B0025;
+    height: 100vh;
+    width: 411px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tela2 {
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back {
+    margin: 20px;
+    position: relative;
+    top: -12px;
+    left: -1px;
+}
+
+#insiraCod {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#inputCod {
+    width: 320px;
+    height: 52px;
+    border-radius: 20px;
+    margin: 40px;
+    text-indent: 40px;
+    background-image: url(imgs-codigo/iconInput.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.botao {
+    cursor: pointer;
+    width: 285px;
+    height: 41px;
+    border-radius: 20px;
+    background-color: #008582;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+/*QUINTA TELA*/
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+#popUp {
+    width: 322px;
+    height: 190px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#insiraCod2 {
+    color: #777777;
+    font-size: 18px;
+}

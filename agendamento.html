@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-agendamento.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+    <title>Agendamento</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <p class="p-header">Local</p>
+            <img src="imgs-agendamento/image 2 copy.png" alt="foto onibus" width="50" height="50">
+            <p class="p-header">Bus</p>
+        </div>
+    </header>
+
+    <div id="main-content">
+        <a href="index.html"><img src="imgs-agendamento/back.png" alt="icon back" class="icon-back"></a>
+        <h1>Compre sua passagem de onibûs!</h1>
+
+        <div id="inputs">
+            <div class="saida">
+                <img src="imgs-agendamento/🦆 icon _location_.png" alt="" class="send">
+                <input type="text" id="saida" placeholder="De onde você vai sair?" >
+            </div>
+
+            <div class="chegada">
+                <img src="imgs-agendamento/🦆 icon _send 2_.png" alt="icon location" class="location">
+                <select id="chegada">
+                    <option value="" disabled selected>Para onde você vai?</option>
+                    <option value="">Porto de Galinhas, Ipojuca</option>
+                    <option value="">Muro Alto, Ipojuca</option>
+                    <option value="">Macaraípe, Ipojuca</option>
+                    <option value="">Serrambi, Ipojuca</option>
+                    <option value="">Praia de Carneiros, Tamandaré</option>
+                    <option value="">Calhetas, Cabo de Santo Agostinho</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="idaVolta">
+            <div class="ida">
+                <input type="radio" name="" id="">
+                <p>Somente Ida</p>
+            </div>
+            <div class="volta">
+                <input type="radio" name="" id="">
+                <p>Ida e Volta</p>
+            </div>
+        </div>
+
+        <div id="passagens">
+            <h1>Selecione a quantidade de passagens</h1>
+            <p class="min">(máximo 3)</p>
+
+            <div id="contador">
+                <div class="btn-negative"> - </div>
+                <p style="color: white;" class="result-p">1</p>
+                <div class="btn-positive"> + </div>
+            </div>
+
+            <p class="result-ticket">Valor: R$ 119,99</p>
+        </div>
+
+        <div id="calendar">
+            <div class="calendar-ida">
+                <p>Data Ida</p>
+                <input type="date" name="" id="dataIda" min="2023-12-18" max="2023-12-28">
+            </div>
+            <div class="calendar-volta">
+                <p>Data Volta</p>
+                <input type="date" name="" id="dataVolta" min="2024-01-02" max="2024-01-20">
+            </div>
+        </div>
+
+        <div class="indent-btn">
+            <a href="Confirmação.html">
+                <div id="btn-confirm">
+                    <p class="btn-confirm-design">Confirmar passagem</p>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

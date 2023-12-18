@@ -1,0 +1,166 @@
+p{
+    font-family: 'Tinos', serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section {
+    width: 411px;
+    height: 749px;
+    background-color: #1B0025;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+div{
+    background-color: #1B0025;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 248px;
+    height: 200px;
+}
+.btn{
+    width: 248px;
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    border: var(--Number, 1px) solid #000;
+    opacity: var(--Number, 1);
+    background: #FFF;
+    text-indent: 40px;
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+}
+.caixas{
+    padding-right: 85px;
+    width: 248px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.resumo-de-compra{
+    width: 234px;
+    height: 204px;
+    border-radius: 20px;
+    border: 2px solid var(--ciano, #01FFFA);
+    background: rgba(217, 217, 217, 0.00);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.enviar{
+    width: 285px;
+    height: 52.71px;
+    border-radius: 20px;
+    background-color: rgba(0, 133, 130, 0.65);
+}
+.imagem-logo{
+    width: 50px;
+    height: 50px;
+}
+.nome-logo{
+    background-color: white;
+}
+.imagem-resumo{
+    width: 101px;
+    height: 61px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.porto-nome{
+    opacity: var(--Number, 1);
+    background: linear-gradient(180deg, #00F0FF 38.02%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Nobile', sans-serif;
+}
+.valor-nome{
+    color: #42FF00;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #1B0025;
+    font-family: 'Nobile', sans-serif;
+}
+.saida-nome{
+    color: #FFF;
+    text-align: center;
+    font-family: Nobile;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color:#1B0025;
+    font-family: 'Nobile', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 411px;
+    height: 81px;
+    background-color: white;
+    box-shadow: 0px -13px 4px 0px #1B0025 inset;
+}
+.enviar-botao{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: var(--Number, 1);
+    background-color: rgba(0, 133, 130, 0.65);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Newsreader', sans-serif;
+}
+.nome1{
+    background-image: url(imgs-confirmacao/🦆\ icon\ _user_.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.nome2{
+    background-image: url(imgs-confirmacao/🦆\ icon\ _sms_.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.nome3{
+    background-image: url(imgs-confirmacao/🦆\ icon\ _call_.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.confirm-button{
+    background-color: #1B0025;
+    color: #FFF;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.back-btn{
+    position: relative;
+    left: -20px;
+    top: -140px;
+    background-color: #1B0025;
+}
+.btn-back-color{
+    background-color: #1B0025;
+}
